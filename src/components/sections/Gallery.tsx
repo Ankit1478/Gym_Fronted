@@ -36,7 +36,7 @@ const trainers = [
 
 const Gallery = () => {
   return (
-    <section className="py-16 bg-black" id="trainers">
+    <section className="py-24 bg-black" id="trainers">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white mb-4">Meet Our Trainers</h2>
