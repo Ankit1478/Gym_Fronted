@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
@@ -12,6 +13,10 @@ module.exports = {
         flicker: {
           '0%, 100%': { opacity: 0.9 },
           '50%': { opacity: 0.6 },
+        },
+        pulse: {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0.5 },
         },
         rotate: {
           '0%': { transform: 'rotate(0deg)' },
