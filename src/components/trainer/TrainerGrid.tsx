@@ -25,7 +25,7 @@ const trainers = [
 export const TrainerGrid = () => (
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-20">
     {trainers.map((trainer, index) => (
-      <div key={index} className="group relative h-[500px] overflow-hidden rounded-2xl cursor-pointer">
+      <div key={index} className="group relative h-[400px] md:h-[500px] overflow-hidden rounded-2xl cursor-pointer">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 

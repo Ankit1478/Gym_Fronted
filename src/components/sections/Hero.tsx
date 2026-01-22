@@ -52,7 +52,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="font-oswald text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-8 leading-none tracking-tight uppercase drop-shadow-2xl"
+            className="font-oswald text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold text-white mb-8 leading-none tracking-tight uppercase drop-shadow-2xl"
           >
             TRANSFORM <br />
             <span className="relative inline-block">

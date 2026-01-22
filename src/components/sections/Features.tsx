@@ -18,11 +18,11 @@ const Features = () => {
           </h2>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-4 h-[800px] lg:h-[600px] w-full">
+        <div className="flex flex-col lg:flex-row gap-4 lg:h-[600px] w-full">
           {images.map((image, index) => (
             <div
               key={image.id}
-              className="relative group flex-1 transition-all duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:flex-[3] overflow-hidden rounded-3xl border border-white/10"
+              className="relative group lg:flex-1 h-[400px] lg:h-auto transition-all duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)] lg:hover:flex-[3] overflow-hidden rounded-3xl border border-white/10"
             >
               {/* Image with zoom effect */}
               <img
@@ -41,19 +41,19 @@ const Features = () => {
               </div>
 
               {/* Content Content */}
-              <div className="absolute bottom-0 left-0 w-full p-8 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+              <div className="absolute bottom-0 left-0 w-full p-8 translate-y-0 lg:translate-y-4 lg:group-hover:translate-y-0 transition-transform duration-500">
                 <div className="flex items-end justify-between">
                   <div>
                     <h2 className="text-white font-oswald text-3xl md:text-5xl font-bold uppercase tracking-wide mb-2">
                       {image.title}
                     </h2>
-                    <p className="text-gray-300 max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 transform translate-y-4 group-hover:translate-y-0">
+                    <p className="text-gray-300 max-w-md opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-500 delay-100 transform lg:translate-y-4 lg:group-hover:translate-y-0">
                       Experience world-class training designed to maximize your potential and crush your fitness goals.
                     </p>
                   </div>
                   
                   {/* Arrow Icon */}
-                  <div className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 transition-all duration-500 delay-200 shadow-lg shadow-blue-600/30">
+                  <div className="hidden lg:flex w-12 h-12 rounded-full bg-blue-600 items-center justify-center text-white opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 transition-all duration-500 delay-200 shadow-lg shadow-blue-600/30">
                     <ArrowUpRight className="w-6 h-6" />
                   </div>
                 </div>

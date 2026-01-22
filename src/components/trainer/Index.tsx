@@ -5,7 +5,7 @@ import { TrainerGrid } from './TrainerGrid';
 
 const TrainerSection = () => {
   return (
-    <section className="py-32 bg-black relative overflow-hidden" id="trainers">
+    <section className="py-20 md:py-32 bg-black relative overflow-hidden" id="trainers">
       <StraightLight />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
