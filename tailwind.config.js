@@ -3,6 +3,10 @@ export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+        oswald: ['Oswald', 'sans-serif'],
+      },
       animation: {
         flicker: 'flicker 1.5s infinite',
         pulse: 'pulse 2s infinite',

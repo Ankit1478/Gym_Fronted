@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { images } from '../constant/image';
 
 const Features = () => {

@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <Dumbbell className="h-8 w-8 text-blue-500" />
-              <span className="text-2xl font-bold text-white">FLEX GYM</span>
+              <span className="text-2xl font-bold text-white">Fitness Club</span>
             </div>
             <p className="text-sm">
               Transform your body and mind with our state-of-the-art facilities and expert guidance.
